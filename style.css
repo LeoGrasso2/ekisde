@@ -1,0 +1,101 @@
+html{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   margin: 0;
+}
+
+.contenedor-total{
+   padding: 0;
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+}
+.navbar{
+   width: 100%;
+}
+.navbar .title{
+   font-size: 36px;
+   font-weight: bold;
+}
+.navbar .lista{
+   padding: 0;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(48, 48, 48);
+   flex-direction: row;
+}
+.navbar ul{
+   margin: 0;
+   padding: 0;
+}
+.navbar .lista li{
+   padding: 15px;
+   height: 100%;
+   transition: .5s;
+   list-style-type: none;
+   margin: 0px 15px 0px 15px;
+}
+.navbar .lista a{
+   text-decoration: none;
+}
+.navbar .lista a:visited{
+   color: white;
+}
+.navbar .lista li:hover{
+   border-radius: 30px;
+   background-color: rgb(94, 94, 94);
+   font-size: 24px;
+}
+
+h1 {
+   margin: 0;
+   max-width: max-content;
+
+}
+.containerMain-index{
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   height: 550px;
+   background-image: url('/masajes.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y:-80px;
+}
+.containerMain-about{
+   display: flex;
+   font-size: 24px;
+   height: 550px;
+   background-image: url('/masajes2.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y:-80px;
+}
+
+
+.boxMain{
+   align-content: center;
+   height: 200px;
+   color: white;
+   text-shadow: 2px 5px 10px black;
+   background-color: rgba(20, 20, 20, 0.692);
+   margin: 50px;
+   padding: 20px;
+   border-radius: 30px;
+   display: flex;
+}
+
+#box1{
+   background-image: url('/p1.jpg');
+}
+#box2{
+   background-image: url('/p2.jpg');
+}
+#box3{
+   background-image: url('/p3.jpg');
+}
