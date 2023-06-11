@@ -62,7 +62,7 @@ h1 {
    justify-content: center;
    font-size: 24px;
    height: 550px;
-   background-image: url('/masajes.png');
+   background-image: url('masajes.png');
    background-repeat: no-repeat;
    background-size: cover;
    background-position-y:-80px;
@@ -71,7 +71,7 @@ h1 {
    display: flex;
    font-size: 24px;
    height: 550px;
-   background-image: url('/masajes2.jpeg');
+   background-image: url('masajes2.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position-y:-80px;
@@ -91,11 +91,11 @@ h1 {
 }
 
 #box1{
-   background-image: url('/p1.jpg');
+   background-image: url('p1.jpg');
 }
 #box2{
-   background-image: url('/p2.jpg');
+   background-image: url('p2.jpg');
 }
 #box3{
-   background-image: url('/p3.jpg');
+   background-image: url('p3.jpg');
 }
